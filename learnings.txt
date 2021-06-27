@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+13 - Roman to Integer
+For this problem I learned about hash maps. JavaScript has a built in Map() object that allows the storing of key-value pairs, with ~O(1) retrieval
+time. My memory storage stats ended up being terrible because I stored everything I needed. In hindsight, I could only store the one character 
+numerals and programatically check for the others.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+20 - Valid Parentheses
+My original solution recursively called a reduceString function, which would loop through the string and remove a pair of brackets if they were 
+immediately next to each other.
+This means that worst case, the solution would have to loop through the string as many times as there are characters in the array.
+This was O(n^n) time complexity, and was terrible.
+I learned about stacks and queues, which I then used to great effect, and should remember for the future.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+175 - Combine Two Tables
+Inner joins return records with matching values in boths tables.
+Left join returns all records from the left, and matches from the right.
+Right join returns the opposite.
+Full join returns matches from left or right.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
