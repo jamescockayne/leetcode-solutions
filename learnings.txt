@@ -17,3 +17,9 @@ Left join returns all records from the left, and matches from the right.
 Right join returns the opposite.
 Full join returns matches from left or right.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
+94/114/145 - Binary Tree Traversals
+The order of my treversal matters. Inorder traversal can return me a sorted list of the tree values, which is handy to remember.
+postorder => left, right, current
+preorder => current, left, right
+inorder => left, current, right
+-----------------------------------------------------------------------------------------------------------------------------------------------------
