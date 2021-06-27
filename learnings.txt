@@ -8,7 +8,7 @@ numerals and programatically check for the others.
 My original solution recursively called a reduceString function, which would loop through the string and remove a pair of brackets if they were 
 immediately next to each other.
 This means that worst case, the solution would have to loop through the string as many times as there are characters in the array.
-This was O(n^n) time complexity, and was terrible.
+This was O(n^2) time complexity, and was terrible.
 I learned about stacks and queues, which I then used to great effect, and should remember for the future.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 175 - Combine Two Tables
